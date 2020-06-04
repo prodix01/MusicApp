@@ -6,20 +6,46 @@
     android:layout_height="match_parent"
     tools:context=".SecondActivity"
     android:orientation="vertical"
-    android:gravity="center"
     android:background="@drawable/bg"
     >
 
+<!--    <androidx.appcompat.widget.Toolbar-->
+<!--        android:id="@+id/toolbar"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="25dp"-->
+<!--        android:background="@drawable/backgroud_purple"-->
+<!--        android:minHeight="?attr/actionBarSize"-->
+<!--        android:theme="?attr/actionBarTheme"-->
+<!--        app:titleTextColor="#fff"-->
+<!--        android:elevation="10dp"-->
+<!--        app:title="메인화면"-->
+<!--        app:titleMarginStart="170dp"-->
+<!--        >-->
     <TextView
+        android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="second page"
-        android:textSize="40dp"
+        android:text="Top 30"
+        android:textSize="20dp"
         android:textColor="#fff"
-        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
         android:fontFamily="@font/mapo"
         />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/App_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+
+
 
 
 
 </androidx.appcompat.widget.LinearLayoutCompat>
+

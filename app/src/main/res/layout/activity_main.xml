@@ -41,7 +41,7 @@
         android:textSize="20dp"
         android:background="@drawable/backgroud_radius"
         android:layout_margin="20dp"
-        android:fontFamily="@font/recipekorea"
+        android:fontFamily="@font/mapo"
         />
 
     <Button
@@ -53,7 +53,7 @@
         android:textSize="20dp"
         android:background="@drawable/backgroud_radius"
         android:layout_margin="20dp"
-        android:fontFamily="@font/recipekorea"
+        android:fontFamily="@font/mapo"
         android:onClick="goSecondView"
         />
 

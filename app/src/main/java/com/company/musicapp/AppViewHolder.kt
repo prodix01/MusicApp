@@ -5,7 +5,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import kotlinx.android.synthetic.main.layout_recyler_item.view.*
 
-class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
+class AppViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
 
     private val songTitleView = itemView.title
     private val songImgView = itemView.song_img

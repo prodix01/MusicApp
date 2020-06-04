@@ -1,4 +1,9 @@
 package com.company.musicapp
 
-class MyModel {
+import android.media.Image
+
+class MyModel(var name: String? = "아무노", var songImg: String? = null) {
+
+
+
 }

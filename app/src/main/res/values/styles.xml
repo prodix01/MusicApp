@@ -7,18 +7,18 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
 
+
         <!--맨위에 바를 투명하게 바꾼다-->
         <item name="android:windowTranslucentStatus">true</item>
         <item name="android:windowTranslucentNavigation">true</item>
 
         <!--커스텀 폰트스타일 적용-->
-<!--        <item name="android:textViewStyle">@style/customTextViewFontStyle</item>-->
-<!--        <item name="android:buttonStyle">@style/customButtonFontStyle</item>-->
-<!--        <item name="android:editTextStyle">@style/customEditTextFontStyle</item>-->
-<!--        <item name="android:radioButtonStyle">@style/customRadioButtonFontStyle</item>-->
-<!--        <item name="android:checkboxStyle">@style/customCheckboxFontStyle</item>-->
+        <item name="android:textViewStyle">@style/customTextViewFontStyle2</item>
+        <item name="android:buttonStyle">@style/customButtonFontStyle2</item>
+        <item name="android:editTextStyle">@style/customEditTextFontStyle2</item>
+        <item name="android:radioButtonStyle">@style/customRadioButtonFontStyle2</item>
+        <item name="android:checkboxStyle">@style/customCheckboxFontStyle2</item>
     </style>
-
 
 
 </resources>
